@@ -1,0 +1,28 @@
+{
+  "name": "tdc-2022-fastify-api-with-cluster-mode",
+  "version": "1.0.0",
+  "description": "Sample NodeJS Fastify REST API running on cluster mode",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bovino/tdc-2022-fastify-api-with-cluster-mode.git"
+  },
+  "keywords": [
+    "node",
+    "fastify",
+    "cluster"
+  ],
+  "author": "Marcelo Bezerra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bovino/tdc-2022-fastify-api-with-cluster-mode/issues"
+  },
+  "homepage": "https://github.com/bovino/tdc-2022-fastify-api-with-cluster-mode#readme",
+  "dependencies": {
+    "fastify": "^3.29.0"
+  }
+}
